@@ -27,11 +27,6 @@ li a:hover:not(.active) {
 li:last-child {
 	border-left: none;
 }
-
-body {
-	background-color:black;
-	color:white;
-}
 .active {
   background-color: #Bf5700;
   color:white;
@@ -48,5 +43,7 @@ body {
 	transform: translate(-50%,-50%);
 	font-size: 50px;
 }
-
-/* Dear God please work. */
+body {
+	background-color:black;
+	color:white;
+}

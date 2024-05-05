@@ -31,3 +31,19 @@ li:last-child {
   background-color: #Bf5700;
   color:white;
 }
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.credit {
+	position:absolute;
+	top:80%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-size: 50px;
+}
+body {
+	background-color:black;
+	color:white;
+}

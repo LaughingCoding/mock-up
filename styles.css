@@ -27,6 +27,11 @@ li a:hover:not(.active) {
 li:last-child {
 	border-left: none;
 }
+
+body {
+	background-color:black;
+	color:white;
+}
 .active {
   background-color: #Bf5700;
   color:white;
@@ -43,8 +48,5 @@ li:last-child {
 	transform: translate(-50%,-50%);
 	font-size: 50px;
 }
-body {
-	background-color:black;
-	color:white;
-}
+
 /* Dear God please work. */

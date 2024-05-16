@@ -41,9 +41,49 @@ li:last-child {
 	top:80%;
 	left:50%;
 	transform: translate(-50%,-50%);
-	font-size: 50px;
+	font-size: 30px;
 }
 body {
 	background-color:black;
 	color:white;
+}
+dialog {
+	background-color:black;
+	color:white;
+}
+.1site {
+	width:125px;
+	height:100px;
+	box-shadow: 0 4px 8px 0 #63666A;
+	transition: 0.3s;
+}
+.1site:hover {
+  box-shadow: 0 8px 16px 0 #63666A);
+}
+
+.descontainer {
+  padding: 2px 16px;
+}
+
+img{
+	align-content:left;
+	border:1px solid #616161;
+	border-radius:5px;
+}
+img:hover{
+	box-shadow: 0 0 2px 1px #424242;
+}
+.headbar{
+	position:sticky;
+	top:0;
+}
+table{
+	background-color:#222222;
+	width:30%;
+	height:30%;
+	border:1px solid #616161;
+	border-radius:5px;
+}
+.main {
+	margin-top:20px;
 }
